@@ -1,13 +1,24 @@
-# Welcome to [Use R, Canada!](https://open-canada.github.io/Use-R) ( [formerly R Ottawa)](https://IVI-M.github.io/R-Ottawa/) )
+# Welcome to [Use R, Canada!](https://open-canada.github.io/Use-R) ( [formerly R Ottawa](https://IVI-M.github.io/R-Ottawa/) )
 
-[ Home](index.md) --  [ Resources](resources.md) -- [ GCCollab Group](101.md)- - [ Meetups](meetups.md)
+[ Home](index.md) --  [ Resources](resources.md) -- [ GCCollab Group](https://gccollab.ca/groups/profile/7391537/enuse-rfruse-r) -- [ Lunch and Learn R](learn2021.md)
 
 
-Pages for people interested in learning and using R in National Capital Region and elsewhere.
+Pages for people interested in learning and using R in Government of Canada and elsewhere.
 
 
 
 ### News:  
+
+
+2021-04-23: 
+- New portal is created for hosting [Use R, Canada!](https://open-canada.github.io/Use-R),  [formerly R Ottawa](https://IVI-M.github.io/R-Ottawa/). This one! All content from [ R Ottawa](https://IVI-M.github.io/R-Ottawa/) ) is being moved here.
+- New page is created [Second Season of Lunch and Learn R: packages](learn2021.md). 
+- The content from last year is moved to [First Season of Lunch and Learn R: Building COVID-19 Web App from scratch](learn2020.md). 
+
+
+2021-04-16: 
+- At our weekly Friday's Lunch and Learn R meetups, we started a new series of hands-on ("build from scratch") tutorials focused on developing skills for building your own R packages.  The objective is to build a variety of useful packages for common use by all, using the codes contributed by the community. GC employees and partnerfs, can visit visit [ GCCollab Group](https://gccollab.ca/groups/profile/7855030/friday-lunch-and-learn-r-meet-ups) for more details, notes and recordings from the meetups. The key notes and resources from these meetups will also be posted [here](learn2021.md)
+
 
 2021-02-27: 
 - GC employees, head to [https://gccode.ssc-spc.gc.ca/r4gc](https://gccode.ssc-spc.gc.ca/r4gc) for more resources and codes related to R coding and usage at GC! Join us for informal 'Lunch and Learn's meet-ups every Friday at 11:30. - See [GCcollab](https://gccollab.ca/groups/activity/7071541) for more information.
