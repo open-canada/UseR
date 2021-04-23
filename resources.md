@@ -81,7 +81,7 @@ Related:
 - <https://github.com/CSPS-EFPC-DAAN/Resources>
   - <https://github.com/CSPS-EFPC-DAAN/Data-AI-ML>
 - <www.data-action-lab.com>
-   - h<ttps://www.data-action-lab.com/home/data-action-lab-blog/>
+   - <https://www.data-action-lab.com/home/data-action-lab-blog/>
    
 ##  More from RStudio
 
@@ -114,7 +114,7 @@ rstudio::conf 2018 talks <https://beta.rstudioconnect.com/content/3105>
 ### CAREER TRACK: R Programmer
 
 - <https://www.datacamp.com/courses/introduction-to-shell-for-data-science>
-- related to this- From command line: https://www.datascienceatthecommandline.com/>
+- related to this- From command line: <https://www.datascienceatthecommandline.com/>
 
 - <https://www.datacamp.com/courses/data-privacy-and-anonymization-in-r>
 - <https://www.datacamp.com/courses/parallel-programming-in-r>
