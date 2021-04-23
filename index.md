@@ -11,8 +11,8 @@ Pages for people interested in learning and using R in Government of Canada and 
 
 
 2021-04-23: 
-- New portal is created for hosting [Use R, Canada!](https://open-canada.github.io/Use-R), which was formerly known as [R Ottawa](https://IVI-M.github.io/R-Ottawa/). This one! All content from [ R Ottawa](https://IVI-M.github.io/R-Ottawa/) ) is being moved here.
-- New page is created [Second Season of Lunch and Learn R: packages](learn2021.md). 
+- Welcome to our new [Use R, Canada!](https://open-canada.github.io/Use-R) portal, hosted at open-canada GitHub portal! This portal is the continuation of the efforts started last year at [R Ottawa](https://IVI-M.github.io/R-Ottawa/), now supported by a larger community of government employees from all around the country. Hope you will find it useful!
+- A dedicated page is created  for [Second Season of Lunch and Learn R: packages](learn2021.md). 
 - The content from last year is moved to [First Season of Lunch and Learn R: Building COVID-19 Web App from scratch](learn2020.md). 
 
 
