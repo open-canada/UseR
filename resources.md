@@ -22,6 +22,10 @@ Intermediate:
 - <https://stat545.com/>
 - <https://datasciencebox.org/>
 
+Big books with codes:
+- <https://www.bigbookofr.com> - <https://github.com/oscarbaruffa/BigBookofR>
+- <https://rstudio4edu.github.io/rstudio4edu-book> - <https://github.com/rstudio4edu/rstudio4edu-book>
+
 ---
 
 ## Homework for `Lunch and Learn R101`
