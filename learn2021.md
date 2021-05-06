@@ -1,14 +1,13 @@
 # Learning R together (Lunch and Learn)
 
-[ Home](index.md) --  [ Resources](resources.md) 
+[ Home](index.md) --  [ Resources](resources.md)  --  [ Season 1](learn2020.md) 
 
 
 This page provides information related the Second season of "Lunch and Learn R" seminars organized by Dmitry Gorodnichy with his colleagues in Gov't of Canada. 
-In interactive hands-on way, they show how to learn and master R - one of the most popular tools used for data analysis and visualization -  
+In interactive hands-on way, they show how to learn and master R - one of the most popular tools used for data analysis and visualization -
 using open source resources. 
-
-The sessions are 45 mins long and run every Friday starting at 11:30 via MS Teams, with the objective to develop something useful for community by the end of 8-10 sessions,
-e.g., a Web App that can  visualize some complex and  valuable data, the plenty of which is available at 
+The sessions are 45 mins long and run every Friday at lunch time via MS Teams, with the objective to develop something useful for community by the end of 8-10 sessions,
+e.g., a Web App or package that can  visualize some complex and  valuable data, the plenty of which is available at 
 [open.canada.ca](https://open.canada.ca/en/open-data).
 <!-- build from scratch AI and Data Science tools  R. 
 <!-- Data Science Apps, such as [iTrack Covid](https://itrack.shinyapps.io/covid), using  R. 
@@ -18,7 +17,7 @@ If you missed a session, you can catch up by watch it on
 No programming experience or data science background required. No installation of software is needed either. 
 If you don't have RStudio installed on your machine, you can code in [https://rstudio.cloud](https://rstudio.cloud). It's  free, no subscription required, and is greatly supported by community.
 
-For whom: Open to all GC employees and collaborators
+For whom: Open to all GC employees and collaborators    
 When: Every Friday at Lunch time (12:00 - 12:50)   
 How: Via MS Teams.  **Dial-in instructions** are posted at the  [**GCCollab page**](https://gccollab.ca/groups/about/7855030): 
 
@@ -29,7 +28,7 @@ Related resources:
 
 - Polls at GCcollab: https://gccollab.ca/polls/group/7391537/all
 - Polls and Q&A at Sli.do: [code "r4gc"](https://app.sli.do/event/vjykylap)
-
+- Season 1 (Summer 2020): [Building COVID Web App from scratch](learn2020.md]
 ---
 
 
@@ -55,11 +54,12 @@ Main Topic: "Converting your useful and complex codes into packges for common us
 
 Sub-topics:  
 - How to best leverage GCcode (GitLab for GC)
-- Make data.table your closest friend!
+- Make `data.table` your closest friend!
 - Why think OOP (Object Oriented Programming)
+- R vs. Python, R and Python
 - Text analysis and Topic extraction using ATIP data
-- Uncoverting hidden insights from PSES and Canada Election results using Data Science       
-- Foundations of robust, scalable, collaborative data programming"
+- Uncovering hidden insights from PSES, ATIP and Canada Election results using Data Science       
+- Foundations for robust, scalable, collaborative data programming
 
 
 Summary:   
@@ -71,12 +71,6 @@ to con the results of the [Public Service Employee Survey (PSES)](https://www.ca
 In doing that, 
 we'll  be learning not only about packages, but also about data coding in general, what it means to code collabortively, using the best tools and methodologies developed
 by increasingly growing international community.
-<!--
-the record linking problem - one of the most common problems in Data Science, which happens when the same record is spelled differently in different data-sets, 
-as well as about algorithms and  computer programming  -
-the foundation of any automated system, including AI, an example of which we will build.-->
-<!-- We will also touch upon the problem of "bias" in automated system - which could occur when there is a problem with the input data, 
-the algorithm or its implementation.-->
 We will also talk about data engineeing problems and the problems of "bias" in automated systems -- and see what can be done to deal with those problems.
 
 
