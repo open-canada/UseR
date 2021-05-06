@@ -28,7 +28,7 @@ Related resources:
 
 - Polls at GCcollab: https://gccollab.ca/polls/group/7391537/all
 - Polls and Q&A at Sli.do: [code "r4gc"](https://app.sli.do/event/vjykylap)
-- Season 1 (Summer 2020): [Building COVID Web App from scratch](learn2020.md]
+- Season 1 (Summer 2020): [Building COVID Web App from scratch](learn2020.md)
 ---
 
 
