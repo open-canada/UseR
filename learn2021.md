@@ -1,7 +1,8 @@
 # Lunch and Learn R Meet-ups
 
+<!-- 
 [ Home](index.md) --  [ Resources](resources.md)  --  [ Season 1](learn2020.md) 
-
+-->
 
 This page provides information related the Second season of "Lunch and Learn R" seminars organized by Dmitry Gorodnichy with his colleagues in Gov't of Canada. 
 In interactive hands-on way, they show how to learn and master R - one of the most popular tools used for data analysis and visualization -
@@ -19,16 +20,17 @@ If you don't have RStudio installed on your machine, you can code in [https://rs
 
 For whom: Open to all GC employees and collaborators    
 When: Every Friday at Lunch time (12:00 - 12:50)   
-How: Via MS Teams.  **Dial-in instructions** are posted at the  [**GCCollab page**](https://gccollab.ca/groups/about/7855030): 
+How: Via MS Team - .  **Dial-in instructions** are posted at the  [**`Lunch and Learn R Meetups` group GCCollab page**](https://gccollab.ca/groups/about/7855030) 
 
 Related resources:
-- Codes that we write: will be posted in [/r101 ](https://github.com/IVI-M/R-Ottawa/tree/master/r101) folder.   
+- Codes that we write: [GCcode 'r4gc' group pages](https://gccode.ssc-spc.gc.ca/r4gc), some of them will be also posted  [here ](codes).  
 - Ideas for self-learning in [Resources](resources.md)
 - [Data-sets and R projects about Ottawa and Canada](https://github.com/IVI-M/R-Ottawa/blob/master/r-on-github-for-Canada.md)
 
 - Polls at GCcollab: https://gccollab.ca/polls/group/7391537/all
 - Polls and Q&A at Sli.do: [code "r4gc"](https://app.sli.do/event/vjykylap)
 - Season 1 (Summer 2020): [Building COVID Web App from scratch](learn2020.md)
+
 ---
 
 
