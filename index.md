@@ -9,6 +9,9 @@ Pages for people interested in learning and using R in Government of Canada and 
 
 ### News:  
 
+2021-04-30: 
+- Friday Meet-ups moved from 11:30 to 12:05
+- Our COVID web app has additional mirror now: <https://open-canada.github.io/Use-R/COVID>, in addition to <https://rcanada.shinyapps.io/covid/>.
 
 2021-04-23: 
 - Welcome to our new [Use R, Canada!](https://open-canada.github.io/Use-R) portal, hosted at `open-canada` GitHub portal! This portal is the continuation of the efforts started last year at [R Ottawa](https://IVI-M.github.io/R-Ottawa/), now supported by a larger community of government employees from all around the country. Hope you will find it useful!
@@ -19,6 +22,10 @@ Pages for people interested in learning and using R in Government of Canada and 
 2021-04-16: 
 - At our weekly Friday's Lunch and Learn R meetups, we started a new series of hands-on ("build from scratch") tutorials focused on developing skills for building your own R packages.  The objective is to build a variety of useful packages for common use by all, using the codes contributed by the community. GC employees and partnerfs, can visit visit [ GCCollab Group](https://gccollab.ca/groups/profile/7855030/friday-lunch-and-learn-r-meet-ups) for more details, notes and recordings from the meetups. The key notes and resources from these meetups will also be posted [here](learn2021.md)
 
+2021-03-26: 
+- The deck and video-recording from the 
+seminar  *"Data Engineering with R, R Markdown, Shiny and algorithms"* (by Dmitry Gorodnichy)
+organized by Statistics Canada for the Applied machine learning for text analysis community of practice are now posted at  <https://gccollab.ca/event_calendar/view/7556628> 
 
 2021-02-27: 
 - GC employees, head to [https://gccode.ssc-spc.gc.ca/r4gc](https://gccode.ssc-spc.gc.ca/r4gc) for more resources and codes related to R coding and usage at GC! Join us for informal 'Lunch and Learn's meet-ups every Friday at 11:30. - See [GCcollab](https://gccollab.ca/groups/activity/7071541) for more information.
