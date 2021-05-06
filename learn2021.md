@@ -1,4 +1,4 @@
-# Learning R together (Lunch and Learn)
+# Lunch and Learn R Meet-ups
 
 [ Home](index.md) --  [ Resources](resources.md)  --  [ Season 1](learn2020.md) 
 
