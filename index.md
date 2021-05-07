@@ -2,10 +2,10 @@
 
 [ Home](https://open-canada.github.io/Use-R/) | 
 [ GitHub: Open Canada](https://github.com/open-canada) | 
-[ GCCollab: Use R!](https://gccollab.ca/groups/profile/7391537/enuse-rfruse-r) |  
+[ GCCollab: Use R!](https://gccollab.ca/groups/profile/7391537/enuse-rfruse-r) |
 [ GCcode: r4gc](https://gccode.ssc-spc.gc.ca/r4gc) | 
 [ Sli.do: r4gc](https://app.sli.do/event/vjykylap) | 
-[ Lunch and Learn](learn2021.md) |  
+[ Lunch and Learn](learn2021.md) |
 [ Resources](resources.md) 
 
 
