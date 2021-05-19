@@ -1,7 +1,6 @@
-# Use R, Canada!
+This repo contains:
 
-Source files for  'Use R, Canada!' Portal (<https://open-canada.github.io/Use-R/>) are  located here: <https://github.com/open-canada/Use-R/tree/gh-pages>
+- source files for  'Use R, Canada!' Portal (<https://open-canada.github.io/Use-R/>): located here: <https://github.com/open-canada/Use-R/tree/gh-pages>
+- open source R codes used in GC Lunch and Learn R Friday's weekly meetups (TBA)
 
-Other resources here:
-- [discussions](https://github.com/open-canada/Use-R/discussions)
-- codes (TBD)
+
