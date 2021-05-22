@@ -1,0 +1,20 @@
+bookdown::gitbook:
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><strong><a href="./">Building Packages 101 for GC</a></strong></li>
+      after: |
+        <li> <a href="https://gccode.ssc-spc.gc.ca/r4gc/gc-packages/packages101">
+        Source at GCcollab</a> </li>
+    edit:
+      link: https://gccode.ssc-spc.gc.ca/r4gc/resources/gccode101/edit/master/%s
+      text: "Edit"
+    sharing:
+      twitter: yes
+      github: yes
+      facebook: yes
+bookdown::epub_book: default    
+
+
+

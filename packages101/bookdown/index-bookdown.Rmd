@@ -1,0 +1,30 @@
+--- 
+knit: "bookdown::render_book"
+title: "Making your codes re-usable - using R packages!"
+subtitle: "Notes from GC Lunch and Learn R"
+author: ["Dmitry Gorodnichy and Joseph Stinziano"]
+gitlab: https://gccode.ssc-spc.gc.ca/r4gc/gc-packages/packages101
+date: "March -June 2021"
+description: "The book is designed ...."
+url: 'https://gccode.ssc-spc.gc.ca/r4gc/gc-packages/packages101'
+github-repo: hadley/adv-r
+site: bookdown::bookdown_site
+documentclass: book
+---
+
+<!-- # Welcome {-} -->
+
+
+<!-- These are notes from  -->
+
+
+<!-- ## Other books {-} -->
+
+<!-- You may also be interested in: -->
+
+<!-- * __"[R for Data Science](http://r4ds.had.co.nz/)"__ which introduces you to R  -->
+<!--   as a tool for doing data science, focussing on a consistent -->
+<!--   set of packages known as the tidyverse. -->
+
+<!-- * __"[R Packages](http://r-pkgs.had.co.nz/)"__ which teaches you  -->
+<!--   how to make the most of R's fantastic package system. -->

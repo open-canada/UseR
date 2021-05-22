@@ -1,0 +1,9 @@
+book_filename: "packages101-book"
+rmd_files: [
+  "index-bookdown.Rmd",
+  "../packages101.Rmd"
+]
+delete_merged_file: false
+language:
+  ui:
+    chapter_name: ""
