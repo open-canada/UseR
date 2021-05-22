@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^MY_CODES$
+^MY_DATASETS$
+^LICENSE\.md$
+^.RData

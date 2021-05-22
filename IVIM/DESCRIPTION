@@ -1,0 +1,30 @@
+Package: IVIM
+Type: Package
+Title: Utility functions for interactive and efficient data processing, linking and reporting
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Dmitry",
+           family = "Gorodnichy",
+           role = c("aut", "cre"),
+           email = "dmitry.gorodnichy@cbsa-asfc.gc.ca",
+           comment = c(ORCID = "0000-0002-0535-5770"))
+Maintainer: Dmitry Gorodnichy <dg@ivim.ca>
+Description: IVIM package is designed to help you work with data more efficiently - either for data engineering,  visualization, reporting or  analysis, 
+    It is a collection of  utility functions for various other R projects and packages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Imports: 
+    magrittr,
+    data.table,
+    stringr,
+    lubridate,
+    qpdf,
+    ggplot2
+RoxygenNote: 7.1.1

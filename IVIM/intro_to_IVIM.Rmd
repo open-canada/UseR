@@ -1,0 +1,57 @@
+---
+title: "Overview of IVIM package"
+# title: "Why IVIM ?"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{intro}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(IVIM)
+```
+
+
+## Raison d'être
+
+IVIM package is designed to help you to 
+<!-- build packages, interactive reports and apps, and  -->
+work with data more efficiently - either for data engineering,  visualization, reporting or  analysis, while mastering some Computer Programming and Software Enginering practices.
+The lack of resposible use of memory and using established computer programming practices is often quoted as one of R's defficiencies (compared to Python, for example). This package aims to recrify some of that.
+
+## Content
+
+Package functions are divided in the following categories, each represented with its own ivi*.R file in the /R folder:
+- iviBase
+- iviDT
+- iviPlot
+- iviReport
+- iviLink
+
+### Place for Master Copies of utility functions
+
+The .R files in /MY_CODES folder are the Master Copies of all functions placed in `utils.R` filesin all other `rCanada` (ca*) packages.
+
+### Place to learn build packages
+
+In the same /MY_CODES folder,  `package101.Rmd` file provides a "ever green" guide on building, testing and deliverng packages
+
+
+### Why "IVIM" ?
+
+You can think of it as  an abbreviation of "Intelligent (or Interactive) Vision Interfaces and More" 
+Or, you can also think of it as a symbolic illustration of what happens when you properly arrange your existing knowledge (represented by characters "I" and "V") - you get new knowledge or insight (seen as a new charactetr "M"), which is what this package aims to help you achieve.
+
+This was the acronym for [technology]([https://www.youtube.com/user/NouseTechnology]) built by the author of this package in C++ before he started learning and using R, many  tricks and methodologies from which he is now transferring to R.
+
+
+In essence, IVIM is a collection of various utility functions that are used in multiple R projects and packages that are being built by the author 
+Hope, you'll find them useful too.

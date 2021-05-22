@@ -1,0 +1,209 @@
+---
+title: "Data cleaning and linking using the IVIM package"
+output: 
+  rmarkdown::html_vignette
+  # html_document:
+  #   toc: true
+  #   toc_depth: 4
+  #   toc_float: true
+  #   collapsed: false
+  #   number_sections: true
+vignette: >
+  %\VignetteIndexEntry{data_linking}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+<!-- # Building the foundation  -->
+<!-- `dt.*()` functions -->
+
+
+## Low-level functions
+
+<!-- ### In-memory value replacement using - the  "brick" for building a data engineering solution -->
+
+Value replacement is the main  operation that underlies  *most*  data cleaning and linking tasks.
+ <!-- While there many ways to do it -->
+ It is critical that it is done properly. This is achieved using   low-level `dt.*()` functions.
+ 
+First, lets load all packages need and adjust package settings
+Note, even though  IVIM imports data.table function, it actually does not load the package. So you need toload it yourself,
+
+
+
+```{r setup}
+library(IVIM)
+iviPackages()
+iviOptions()
+  # library(data.table)
+  # library(magrittr)
+```
+
+
+### In memory value replacement with `dt.replaceAwithB()` function
+
+Now lets consider the most frequent data cleaning steps which involves changing of *some*  values in a column, e.g., province names.
+
+
+```{r}
+if (T) {
+  # TEST 1: ways to pipe  ----
+
+  dt1 <- data.table(province=c("Alberta", "Quebec"))
+
+  dt1 %>%
+    dt.replaceAwithB ("province", "Quebec", "QB") %>%
+    dt.replaceAwithB ("province", "Alberta", "AB") %>%
+    dt.replaceAwithB ("province", "Alberta", "AB");
+  dt1
+  # bug here ? - it does not print dt1 ! -  you need to call dt1 again, or call dt1 %>% print
+  # ask at stackoverflow !
+  dt1
+
+  # reverse the changes:
+  dt1 %>%
+    dt.replaceBwithA ("province", "Quebec", "QB") %>%
+    dt.replaceBwithA ("province", "Alberta", "AB") %>%
+    dt.replaceBwithA ("province", "Alberta", "AB") %>% print
+
+  if (F) {
+    # NOte: you can pipe the same functionality without dt.replaceAwithB function
+
+    # Way 1: using data.table [][][] operator
+
+    # I prefer this style (so that to have [] in final line):
+    dt1[province == "Quebec", province:="QB"
+        ][province == "Alberta", province:="AB"
+          ][province == "Alberta", province:="AB"
+            ][]
+    # Alternative style:
+    # dt1[province == "Quebec", province:="QB"][
+    #   province == "Alberta", province:="AB"][
+    #     province == "Alberta", province:="AB"][]
+    dt1
+
+    # Now the same using dt.replaceAwithB function
+
+    # Way 2: using magrittr %>% operator
+    # If you update to R 4.1.0, there is a base pipe operator now, |>, which may get rid of any need to use magrittr.
+
+    dt1[province== "Quebec", province:="QB"] %>%
+      .[province== "Alberta", province:="AB"] %>%
+      .[province== "Alberta", province:="AB"] %>% .[]
+
+  }
+}
+
+```
+
+```{r}
+if (T) {
+ # TEST 2: comparisons using iris dataset ----
+
+  # Standard way (least efficient - using dplyr w/o data.table)
+  df <- iris[100:101,]; df
+
+  # R base:
+  df0 <- df
+  df0$Species[df$Species == 'virginica'] <- 'virgin.' #bad
+  df; df0
+
+  df0 <- df  %>%  dplyr::filter(Species=="virginica") %>% dplyr::mutate(Species="virgin.") #bad
+  df; df0
+  df0 <- df %>% dplyr::mutate(Species=ifelse(Species=="virginica", "virgin.", Species)) #bad
+  df; df0
+  df0 <- df %>% dplyr::mutate(Species = forcats::fct_recode(Species, "virgin." = "virginica" ))  #works
+  df; df0
+
+  
+  if (T) {
+    # Compare to Wickam's dtplyr way around with data.table ((not much better...)
+    library(dtplyr)
+    dtBackEnd <- dtplyr::lazy_dt(df)
+    dtBackEnd0 <- dtBackEnd %>%
+      dplyr::filter(Species=="virginica") %>%
+      dplyr::mutate(Species="virgin.") %T>%
+      dplyr::show_query();
+    dtBackEnd0;
+    dtBackEnd;
+    dtBackEnd0 %>% as.data.table()
+  }
+  
+  #  Compare to (the best way):
+  dt <- copy(df);  # dt is data.frame
+  dt %>% setDT; # NB: dt is now data.table and you can use it with dt.*() functions !
+  dt %>%
+    dt.replaceAwithB("Species", "virginica", "virgin.") %>%
+    dt.replaceAwithB("Species", "versicolor", "versic.");
+  dt; df # NB: dt also changed !
+
+}
+```
+
+Four important gains of recommended solution (i.e. using `dt.replaceAwithB()` function) are the following: speed/memory, easy/reusable, robust , pipeline-ready.  
+All of these  are important for  designing  high quality "bricks" that will later be used for "building" a  data engineering solution.
+
+### In memory value replacement based on LOOKUP tables  with `dt.replaceValueUsingLookup()` function
+
+
+Now lest consider a slighly more difficult but as much common DE task - replacing values using a lookup table.
+
+Tis step is critical for many data linking tasks, for example, for linking PSES responses from various years, because the question numbers are different every year!
+
+
+
+```{r}
+# replace set A with set B in column col
+
+
+# Asked: https://stackoverflow.com/questions/67608799/function-to-replace-values-in-data-table-using-a-lookup-table
+
+if (T) {
+  dt <- data.table( chapter=as.character(11:15) );dt
+  
+  dtLookup <- data.table(
+    old = c("11", "12", "14", "15"),
+    new = c("101", "102", "105", "104")
+  )
+  dt %>% dt.replaceValueUsingLookup("chapter", dtLookup)
+  dt
+}
+
+```
+
+### Dynamic assignment of data.table with dt.reset()
+
+
+
+```{r}
+if (T) { # TEST 1 ----
+  dtProjectile <- data.table()
+  dtProjectile$angle<- c(15, 30, 45, 60, 75)
+  dtProjectile$distance <- c(5.1, 8, 10,  8.5, 4.8)
+  dtProjectile <- dt.reset(dtProjectile) # setDT(setDF(dtProjectile))
+  
+  library(ggplot2)
+  ggplot() + geom_point( aes(dtProjectile$angle, projectile$distance)  ) # Works
+  ggplot(dtProjectile) + geom_point( aes(angle,distance) ) # Does not work UNLESS setDT(setDF())
+}
+```
+
+
+```{r}
+
+dt <- as.data.table(iris); dt[1:3]
+cols=1:2
+dt.rmCols(dt, cols); dt[1:3]
+cols=3:4
+dt.keepCols (dt, cols)[1:3]
+
+```
+
