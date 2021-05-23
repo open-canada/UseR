@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>8 * DESCRIPTION | Making your codes re-usable - using R packages!</title>
+  <meta name="description" content="The book is designed …." />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="8 * DESCRIPTION | Making your codes re-usable - using R packages!" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://gccode.ssc-spc.gc.ca/r4gc/gc-packages/packages101" />
+  
+  <meta property="og:description" content="The book is designed …." />
+  <meta name="github-repo" content="hadley/adv-r" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="8 * DESCRIPTION | Making your codes re-usable - using R packages!" />
+  
+  <meta name="twitter:description" content="The book is designed …." />
+  
+
+<meta name="author" content="Dmitry Gorodnichy and Joseph Stinziano" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="license-use-mit-license.html"/>
+<link rel="next" href="namespace.html"/>
+<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><strong><a href="./">Building Packages 101 for GC</a></strong></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>1</b> Resources</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="resources.html"><a href="resources.html#gc-groups-and-repos"><i class="fa fa-check"></i><b>1.1</b> GC groups and repos</a></li>
+<li class="chapter" data-level="1.2" data-path="resources.html"><a href="resources.html#related-tutorials"><i class="fa fa-check"></i><b>1.2</b> Related tutorials</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="how-to-contribute.html"><a href="how-to-contribute.html"><i class="fa fa-check"></i><b>2</b> How to contribute</a></li>
+<li class="chapter" data-level="3" data-path="r-script-to-start.html"><a href="r-script-to-start.html"><i class="fa fa-check"></i><b>3</b> * R script to start:</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="r-script-to-start.html"><a href="r-script-to-start.html#to-be-discussed"><i class="fa fa-check"></i><b>3.1</b> To be discussed</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>4</b> * Setup</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="setup.html"><a href="setup.html#ways-to-do-it"><i class="fa fa-check"></i><b>4.1</b> Ways to do it:</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="setup.html"><a href="setup.html#from-new-project"><i class="fa fa-check"></i><b>4.1.1</b> From New Project</a></li>
+<li class="chapter" data-level="4.1.2" data-path="setup.html"><a href="setup.html#other-methods-and-advice-from-hadley"><i class="fa fa-check"></i><b>4.1.2</b> Other methods and advice from Hadley:</a></li>
+<li class="chapter" data-level="4.1.3" data-path="setup.html"><a href="setup.html#from-script"><i class="fa fa-check"></i><b>4.1.3</b> From script</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="overall-workflow.html"><a href="overall-workflow.html"><i class="fa fa-check"></i><b>5</b> * Overall Workflow</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="overall-workflow.html"><a href="overall-workflow.html#copy-needed-codes-from-my_codes-to-r-directory"><i class="fa fa-check"></i><b>5.1</b> .. Copy needed codes from MY_CODES to R directory</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="overall-workflow.html"><a href="overall-workflow.html#section"><i class="fa fa-check"></i><b>5.1.1</b> </a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="rbuildignore.html"><a href="rbuildignore.html"><i class="fa fa-check"></i><b>6</b> * .Rbuildignore</a></li>
+<li class="chapter" data-level="7" data-path="license-use-mit-license.html"><a href="license-use-mit-license.html"><i class="fa fa-check"></i><b>7</b> * License: <code>use_mit_license()</code></a></li>
+<li class="chapter" data-level="8" data-path="description.html"><a href="description.html"><i class="fa fa-check"></i><b>8</b> * DESCRIPTION</a></li>
+<li class="chapter" data-level="9" data-path="namespace.html"><a href="namespace.html"><i class="fa fa-check"></i><b>9</b> * NAMESPACE</a></li>
+<li class="chapter" data-level="10" data-path="examples-and-tests.html"><a href="examples-and-tests.html"><i class="fa fa-check"></i><b>10</b> * Examples and tests</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="examples-and-tests.html"><a href="examples-and-tests.html#in-main-file-in-r-folder"><i class="fa fa-check"></i><b>10.1</b> .. In main file in /R folder</a></li>
+<li class="chapter" data-level="10.2" data-path="examples-and-tests.html"><a href="examples-and-tests.html#in-tests-folder"><i class="fa fa-check"></i><b>10.2</b> .. In /tests folder</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="in-my-codes.html"><a href="in-my-codes.html"><i class="fa fa-check"></i><b>11</b> .. in MY_CODES</a></li>
+<li class="chapter" data-level="12" data-path="testthat.html"><a href="testthat.html"><i class="fa fa-check"></i><b>12</b> * testthat</a></li>
+<li class="chapter" data-level="13" data-path="documentation.html"><a href="documentation.html"><i class="fa fa-check"></i><b>13</b> * Documentation</a></li>
+<li class="chapter" data-level="14" data-path="vignettes.html"><a href="vignettes.html"><i class="fa fa-check"></i><b>14</b> * Vignettes</a></li>
+<li class="chapter" data-level="15" data-path="packaging-and-publishing-w-pkgdown.html"><a href="packaging-and-publishing-w-pkgdown.html"><i class="fa fa-check"></i><b>15</b> Packaging and publishing w. <code>pkgdown</code></a></li>
+<li class="chapter" data-level="16" data-path="appendix-various-possible-errors-and-problems.html"><a href="appendix-various-possible-errors-and-problems.html"><i class="fa fa-check"></i><b>16</b> Appendix: Various possible Errors and problems</a>
+<ul>
+<li class="chapter" data-level="16.0.1" data-path="appendix-various-possible-errors-and-problems.html"><a href="appendix-various-possible-errors-and-problems.html#errors-in-using-usethisuse_testthat"><i class="fa fa-check"></i><b>16.0.1</b> Errors in using usethis::use_testthat()</a></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="optional-rtools.html"><a href="optional-rtools.html"><i class="fa fa-check"></i><b>17</b> (optional) Rtools</a></li>
+<li class="divider"></li>
+<li> <a href="https://gccode.ssc-spc.gc.ca/r4gc/gc-packages/packages101">
+Source at GCcollab</a> </li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Making your codes re-usable - using R packages!</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="description" class="section level1" number="8">
+<h1><span class="header-section-number">8</span> * DESCRIPTION</h1>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="license-use-mit-license.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="namespace.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://gccode.ssc-spc.gc.ca/r4gc/resources/gccode101/edit/master/packages101.md",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
