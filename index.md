@@ -1,6 +1,6 @@
 # Use R, Canada!
 
-[ Home](https://open-canada.github.io/Use-R/) | 
+[ Home](https://open-canada.github.io/UseR/) | 
 [ GitHub: Open Canada](https://github.com/open-canada) | 
 [ GCCollab: Use R!](https://gccollab.ca/groups/profile/7391537/enuse-rfruse-r) |
 [ GCcode: r4gc](https://gccode.ssc-spc.gc.ca/r4gc) | 
