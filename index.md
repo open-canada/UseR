@@ -1,10 +1,10 @@
-# Use R, Canada!
+# Use R!
 
 [ Home](https://open-canada.github.io/UseR/) | 
 [ GitHub: Open Canada](https://github.com/open-canada) | 
-[ GCCollab: Use R!](https://gccollab.ca/groups/profile/7391537/enuse-rfruse-r) |
+[ GCCollab: R4GC Community](https://gccollab.ca/groups/profile/7391537/r4gc) |
 [ GCcode: r4gc](https://gccode.ssc-spc.gc.ca/r4gc) | 
-[ Lunch and Learn](learn2021.md) |
+<!-- [ Lunch and Learn](learn2021.md) | -->
 [ Resources](resources.md) 
 
 
@@ -14,17 +14,19 @@ Pages for people interested in learning and using R in the Government of Canada 
 
 ### News:  
 
+2021-06-25
+- We finished our Season 2. This portal goes now into the dormant state. Please visit [ GCCollab: R4GC Community](https://gccollab.ca/groups/profile/7391537/r4gc) for all information related to our future "Lunch and Learn Data Science with R" meet-ups and related knowledgebase.
+- Additionally, for GC employees and partners, the wiki page is now created, with links to all available discussion topics and resources: <https://wiki.gccollab.ca/UseR!>
+
 2021-04-30: 
-- Starting May: Friday Lunch and Learn R Meet-ups moved from 11:30 to 12:05. See [ GCCollab Group](https://gccollab.ca/groups/profile/7855030/friday-lunch-and-learn-r-meet-ups) for all details. Additional logistical include: 
-  - First Friday of the month: open "ask/tell anything" sessions (not recorded). 
-  - Other Fridays: guided learning sessions facilitated by the host (recorded)
-- Our COVID Web App has additional mirror now: <https://open-canada.github.io/Use-R/COVID>, in addition to <https://rcanada.shinyapps.io/covid/> and <https://itrack.shinyapps.io/covid>
+- Friday Lunch and Learn R Meet-ups moved from 11:30 to 12:05. See [ GCCollab Group](https://gccollab.ca/groups/profile/7855030/friday-lunch-and-learn-r-meet-ups) for all details. 
+- The Apps that we have developped are now also hosted at: <https://open-canada.github.io/Apps>.
 
 2021-04-23: 
-- We now have a new [Use R, Canada!](https://open-canada.github.io/Use-R) portal, hosted here at `open-canada` GitHub account! This portal is the continuation of the efforts started last year at [R Ottawa](https://IVI-M.github.io/R-Ottawa/), now supported by a larger community of government employees from  around the country. Hope you will find it useful!
+- We now have a new Use R! portal hosted here at `open-canada` GitHub account! This portal is the continuation of the efforts started last year at [R Ottawa](https://IVI-M.github.io/R-Ottawa/), now supported by a larger community of government employees from  around the country. Hope you will find it useful!
 - New pages created:
-  - [ Season 2 (Spring 2021) of Lunch and Learn R meetu-ups: Building packages - from scratch](learn2021.md). 
-  - [ Season 1 (Summer 2020) of Lunch and Learn Rmeetu-ups: Building COVID-19 Web App - from scratch](learn2020.md). 
+  - [ Season 2 (Spring 2021) of Lunch and Learn R meet-ups: Building packages - from scratch](learn2021.md). 
+  - [ Season 1 (Summer 2020) of Lunch and Learn R meet-ups: Building COVID-19 Web App - from scratch](learn2020.md). 
 
 
 2021-04-16: 
