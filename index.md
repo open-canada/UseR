@@ -1,8 +1,6 @@
 # Use R!
 
-[ GitHub: Open Canada](https://github.com/open-canada) | [ GCwiki: Use R!](https://wiki.gccollab.ca/UseR!) |
-[ GCCollab: R4GC Community](https://gccollab.ca/groups/profile/7391537/r4gc) |
-[ GCcode: r4gc](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) 
+[ GitHub: Open Canada](https://github.com/open-canada) | [ GCwiki: Use R!](https://wiki.gccollab.ca/UseR!) | [ GCCollab: R4GC Community](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode: r4gc group](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) 
 
 
 Pages for people interested in learning and using R in the Government of Canada and elsewhere.
@@ -11,7 +9,6 @@ Pages for people interested in learning and using R in the Government of Canada 
 
 ### News:  
 
-2021-09
 
 2021-09-04
 - A contribution is made to the [2021 International Methodology Symposium](https://www.statcan.gc.ca/eng/conferences/symposium2021/program) to describe the collaborative work that we've done by the R4GC community. Please join us on Friday 29th October 2021 at the Symposium for `Session 9A -- Making Official Statistics More Open` (13:00- 14:15) to learn  about "Development of R libraries for common tasks with open Canada data".
