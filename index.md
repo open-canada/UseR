@@ -1,11 +1,8 @@
 # Use R!
 
-[ Home](https://open-canada.github.io/UseR/) | 
-[ GitHub: Open Canada](https://github.com/open-canada) | 
+[ GitHub: Open Canada](https://github.com/open-canada) | GCwiki: Use R!](https://wiki.gccollab.ca/UseR!) |
 [ GCCollab: R4GC Community](https://gccollab.ca/groups/profile/7391537/r4gc) |
-[ GCcode: r4gc](https://gccode.ssc-spc.gc.ca/r4gc) | 
-<!-- [ Lunch and Learn](learn2021.md) | -->
-[ Resources](resources.md) 
+[ GCcode: r4gc](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) 
 
 
 Pages for people interested in learning and using R in the Government of Canada and elsewhere.
@@ -14,13 +11,22 @@ Pages for people interested in learning and using R in the Government of Canada 
 
 ### News:  
 
+2021-09
+
+2021-09-04
+- A contribution is made to the [2021 International Methodology Symposium](https://www.statcan.gc.ca/eng/conferences/symposium2021/program) to describe the collaborative work that we've done by the R4GC community. Please join us on Friday 29th October 2021 at the Symposium for `Session 9A -- Making Official Statistics More Open` (13:00- 14:15) to learn  about "Development of R libraries for common tasks with open Canada data".
+
 2021-06-25
-- We finished our Season 2. This portal goes now into the dormant state. Please visit [ GCCollab: R4GC Community](https://gccollab.ca/groups/profile/7391537/r4gc) for all information related to our future "Lunch and Learn Data Science with R" meet-ups and related knowledgebase.
-- Additionally, for GC employees and partners, the wiki page is now created, with links to all available discussion topics and resources: <https://wiki.gccollab.ca/UseR!>
+- We finished our [Season 2](learn2021.md) - The codes and video recordingss are available on [GCcollab](https://gccollab.ca/groups/profile/7855030/lunch-and-learn-data-science-with-r-friday-meet-ups).
+- This portal goes now into the dormant state. Please visit [ GCCollab: R4GC Community](https://gccollab.ca/groups/profile/7391537/r4gc) for all information related to our future "Lunch and Learn" meet-ups and related knowledgebase. 
+- The GC wiki page is created, which provides links to all discussion topics and resources: <https://wiki.gccollab.ca/UseR!>
+
+2021-05-10: 
+- The Apps that we have developped are now also hosted at: <https://open-canada.github.io/Apps>!
 
 2021-04-30: 
-- Friday Lunch and Learn R Meet-ups moved from 11:30 to 12:05. See [ GCCollab Group](https://gccollab.ca/groups/profile/7855030/friday-lunch-and-learn-r-meet-ups) for all details. 
-- The Apps that we have developped are now also hosted at: <https://open-canada.github.io/Apps>.
+- Based on the poll answers, our weekly  Lunch and Learn R Friday meet-ups moved from 11:30-12:15 to 12:05-12:55. See [ GCCollab Group](https://gccollab.ca/groups/profile/7855030/friday-lunch-and-learn-r-meet-ups) for all details. 
+
 
 2021-04-23: 
 - We now have a new Use R! portal hosted here at `open-canada` GitHub account! This portal is the continuation of the efforts started last year at [R Ottawa](https://IVI-M.github.io/R-Ottawa/), now supported by a larger community of government employees from  around the country. Hope you will find it useful!
