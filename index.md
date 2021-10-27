@@ -2,7 +2,7 @@
 
 Pages for people interested in learning and using R in the Government of Canada and elsewhere.
 
-[ GitHub](https://github.com/open-canada) | [ GCwiki](https://wiki.gccollab.ca/UseR!) | [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) [ Meetups](meetups.md)
+[ GitHub](https://github.com/open-canada) | [ GCwiki](https://wiki.gccollab.ca/UseR!) | [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) | [ Meetups](meetups.md)
 
 
 
