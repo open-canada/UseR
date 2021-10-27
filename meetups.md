@@ -1,4 +1,7 @@
-##  Meetups
+# R4GC (Use R!) Community Meetups
+
+[ GitHub](https://github.com/open-canada) | [ GCwiki](https://wiki.gccollab.ca/UseR!) | [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) | [ Meetups](meetups.md)
+
 
 (Almost) every Friday, we meet at lunch time to talk about various Data Science topics.
 The meetings are done via MS Teams, the dial-in numbers are posted on the
