@@ -16,15 +16,16 @@ you can request access to those resources and our community meetups, by contacti
 
 ## "Lunch and Learn Data Science with R" 
 
-R4GC community "Lunch and Learn Data Science with R" weekly meetups : (NB: you need to join the "Lunch and Learn Data Science with R" meetups group to access recordings of these sessions)
-12 Nov - 19 Nov 2021: Text Analysis with R follow-up / Converting codes to Shiny App
-15 Oct - 5 Nov 2021: We don't meet, because of the  [2021 International Methodology Symposium](https://www.statcan.gc.ca/en/conferences/symposium2021/program)
-8 Oct 2021: Text Analysis with R. Part 1: identifying near-duplicate documents
-1 Oct 2021: Shiny App to summarize very large, high-dimensional tables (code & app provided)
-30 Jul - 17 Sep 2021: Geo/Spatial coding and visualization with R. (code provided)
-16 Jul 2021: Dual Coding - Python and R unite ! (code provided)
-9 Jul 2021: Exploring ggplots (recording, code provided)
-2 Jul 2021: Parsing GC Tables (code provided)
-25 Jun 2021: Using the Open Government Portal API within R (recording, code on github.com/open-canada)
-21 Apr 2021: Analyzing PSES results using R and Shiny
-16 Apr - 15 May 2021: Building R packages (recording, codes provided)
+
+
+- 12 Nov - 19 Nov 2021: Text Analysis with R follow-up / Converting codes to Shiny App
+- 15 Oct - 5 Nov 2021: We don't meet, because of the  [2021 International Methodology Symposium](https://www.statcan.gc.ca/en/conferences/symposium2021/program)
+- 8 Oct 2021: Text Analysis with R. Part 1: identifying near-duplicate documents
+- 1 Oct 2021: Shiny App to summarize very large, high-dimensional tables (code & app provided)
+- 30 Jul - 17 Sep 2021: Geo/Spatial coding and visualization with R. (code provided)
+- 16 Jul 2021: Dual Coding - Python and R unite ! (code provided)
+- 9 Jul 2021: Exploring ggplots (recording, code provided)
+- 2 Jul 2021: Parsing GC Tables (code provided)
+- 25 Jun 2021: Using the Open Government Portal API within R (recording, code on github.com/open-canada)
+- 21 Apr 2021: Analyzing PSES results using R and Shiny
+- 16 Apr - 15 May 2021: Building R packages (recording, codes provided)
