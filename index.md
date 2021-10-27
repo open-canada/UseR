@@ -11,7 +11,7 @@ Pages for people interested in learning and using R in the Government of Canada 
 ### News:  
 
 2021-09-10
-- Starting 8 October, we are starting a new series of Lunch and Learn's weekly meetups focused on Text Analysis with R. For complete list of the community meetups discussions please see   [ GCwiki](https://wiki.gccollab.ca/UseR!) and [ Meetups](meetups.md) pages.
+- Starting 8 October, we are starting a new series of Lunch and Learn's weekly meetups focused on Text Analysis with R. For a list of the  meetups discussions please see   [ GCwiki](https://wiki.gccollab.ca/UseR!) and [ Meetups](meetups.md) pages.
 
 2021-08-04
 - A contribution is made to the [2021 International Methodology Symposium](https://www.statcan.gc.ca/eng/conferences/symposium2021/program) to describe the collaborative work that we've done by the R4GC community. 
