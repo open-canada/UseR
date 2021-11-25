@@ -2,7 +2,7 @@
 
 Pages for people interested in learning and using R in the Government of Canada and elsewhere.
 
-[ GitHub](https://github.com/open-canada) | [ GCwiki](https://wiki.gccollab.ca/UseR!) | [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) | [ Meetups](meetups.md)
+[ GitHub](https://github.com/open-canada) | [ GCwiki](https://wiki.gccollab.ca/UseR!) | [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) | [ The R4GC Book](https://open-canada.github.io/r4gc)
 
 
 
@@ -10,8 +10,14 @@ Pages for people interested in learning and using R in the Government of Canada 
 
 ### News:  
 
+2021-11-14
+- The first draft of  [ The R4GC Book](https://open-canada.github.io/r4gc) released at https://open-canada.github.io/r4gc)
+
+2021-10-29
+- A presentation was made about the work of our R4GC community at [2021 International Methodology Symposium](https://www.statcan.gc.ca/eng/conferences/symposium2021/program). The slide decks of this presentation are here: [in English](https://open-canada.github.io/UserR/pdf) and [en francais](https://open-canada.github.io/UserR/pdf))
+
 2021-09-10
-- Starting 8 October, we are starting a new series of Lunch and Learn's weekly meetups focused on Text Analysis with R. For a list of the  meetups discussions please see   [ GCwiki](https://wiki.gccollab.ca/UseR!) and [ Meetups](meetups.md) pages.
+- On 8 October, we are starting a new series of Lunch and Learn's weekly meetups focused on Text Analysis with R. For more details please see [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) Events pages.
 
 2021-08-04
 - A contribution is made to the [2021 International Methodology Symposium](https://www.statcan.gc.ca/eng/conferences/symposium2021/program) to describe the collaborative work that we've done by the R4GC community. 
