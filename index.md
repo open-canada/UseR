@@ -1,4 +1,6 @@
-# R4GC (Use R!) Community portal
+# Welcome to 
+'Open Canada Use R!' Portal 
+
 
 Pages for people interested in learning and using R in the Government of Canada and elsewhere.
 
@@ -38,8 +40,8 @@ Pages for people interested in learning and using R in the Government of Canada 
 2021-04-23: 
 - We now have a new Use R! portal hosted here at `open-canada` GitHub account! This portal is the continuation of the efforts started last year at [R Ottawa](https://IVI-M.github.io/R-Ottawa/), now supported by a larger community of government employees from  around the country. Hope you will find it useful!
 - New pages created:
-  - [ Season 2 (Spring 2021) of Lunch and Learn R meet-ups: Building packages - from scratch](learn2021.md). 
-  - [ Season 1 (Summer 2020) of Lunch and Learn R meet-ups: Building COVID-19 Web App - from scratch](learn2020.md). 
+  - [ Season 2 (Spring 2021) of Lunch and Learn R meet-ups: R201 - Building packages - from scratch](learn2021.md). 
+  - [ Season 1 (Summer 2020) of Lunch and Learn R meet-ups: R101 - Building COVID-19 Web App - from scratch](https://ivi-m.github.io/R-Ottawa/101.html). 
 
 
 2021-04-16: 
