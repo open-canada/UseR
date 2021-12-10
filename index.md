@@ -1,28 +1,28 @@
-# Welcome to 
-'Open Canada Use R!' Portal 
+# Welcome to 'Open Canada Use R!' Portal 
+
+
+[ GitHub](https://github.com/open-canada) |  [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) | [ The R4GC Book](https://open-canada.github.io/r4gc) 
+ [ R101](https://ivi-m.github.io/R-Ottawa/101.html). 
+
+<!-- 
+[ GCwiki](https://wiki.gccollab.ca/UseR!) | -->
+
 
 
 Pages for people interested in learning and using R in the Government of Canada and elsewhere.
-
-[ GitHub](https://github.com/open-canada) | [ GCwiki](https://wiki.gccollab.ca/UseR!) | [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) | [ The R4GC Book](https://open-canada.github.io/r4gc)
-
-
-
-
-
 ### News:  
 
 2021-11-14
 - The first draft of  [ The R4GC Book](https://open-canada.github.io/r4gc) released at https://open-canada.github.io/r4gc)
 
 2021-10-29
-- A presentation was made about the work of our R4GC community at [2021 International Methodology Symposium](https://www.statcan.gc.ca/eng/conferences/symposium2021/program). The slide decks of this presentation are here: [in English](https://open-canada.github.io/UserR/pdf) and [en francais](https://open-canada.github.io/UserR/pdf))
+- A presentation was made about the work of our R4GC community at [2021 International Methodology Symposium](https://www.statcan.gc.ca/eng/conferences/symposium2021/program). The slide decks of this presentation are here: [in English](https://github.com/open-canada/UseR/blob/main/pdf/gc-refs/2021-10-StatCan-Methodology%20Symposium-09A-3-Gorodnichy%20EN.pdf) and [en francais](https://github.com/open-canada/UseR/blob/main/pdf/gc-refs/2021-10-StatCan-Methodology%20Symposium-09A-3-Gorodnichy%20FR.pdf))
 
 2021-09-10
 - On 8 October, we are starting a new series of Lunch and Learn's weekly meetups focused on Text Analysis with R. For more details please see [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) Events pages.
 
 2021-08-04
-- A contribution is made to the [2021 International Methodology Symposium](https://www.statcan.gc.ca/eng/conferences/symposium2021/program) to describe the collaborative work that we've done by the R4GC community. 
+- A contribution is made to the [2021 International Methodology Symposium](https://www.statcan.gc.ca/eng/conferences/symposium2021/program) to describe the collaborative work  done by the R4GC community. 
 - Please join us on Friday 29th October 2021 at the Symposium for `Session 9A -- Making Official Statistics More Open` (13:00- 14:15) to learn  about "Development of R libraries for common tasks with open Canada data".
 
 2021-06-25
@@ -38,11 +38,13 @@ Pages for people interested in learning and using R in the Government of Canada 
 
 
 2021-04-23: 
-- We now have a new Use R! portal hosted here at `open-canada` GitHub account! This portal is the continuation of the efforts started last year at [R Ottawa](https://IVI-M.github.io/R-Ottawa/), now supported by a larger community of government employees from  around the country. Hope you will find it useful!
+- We now have a new Use R! portal hosted here at `open-canada` GitHub account! This portal is the continuation of the efforts started last year at [R Ottawa](https://IVI-M.github.io/R-Ottawa/), now supported by a larger community of government employees from  around the country.
+
+<!-- 
 - New pages created:
   - [ Season 2 (Spring 2021) of Lunch and Learn R meet-ups: R201 - Building packages - from scratch](learn2021.md). 
   - [ Season 1 (Summer 2020) of Lunch and Learn R meet-ups: R101 - Building COVID-19 Web App - from scratch](https://ivi-m.github.io/R-Ottawa/101.html). 
-
+-->
 
 2021-04-16: 
 - We have started a new series of hands-on "build from scratch" tutorials - focused on developing skills for building your own R packages.  The objective is to build a variety of useful packages for common use by all, using the codes contributed by the community.
