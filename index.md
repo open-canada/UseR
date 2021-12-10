@@ -1,8 +1,7 @@
 # Welcome to 'Open Canada Use R!' Portal 
 
 
-[ GitHub](https://github.com/open-canada) |  [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) | [ The R4GC Book](https://open-canada.github.io/r4gc) 
- [ R101](https://ivi-m.github.io/R-Ottawa/101.html). 
+[ GitHub](https://github.com/open-canada) |  [ GCCollab](https://gccollab.ca/groups/profile/7391537/r4gc) | [ GCcode](https://gccode.ssc-spc.gc.ca/r4gc) | [ Resources](resources.md) | [ Apps](https://open-canada.github.io/Apps/) | [ The R4GC Book](https://open-canada.github.io/r4gc)  |  [ R101](https://ivi-m.github.io/R-Ottawa/101.html). 
 
 <!-- 
 [ GCwiki](https://wiki.gccollab.ca/UseR!) | -->
